@@ -13,6 +13,8 @@ print("ㅤ\nʜᴇʟʟᴏ ᴏᴜʀ sʏsᴛᴇᴍ ʜᴀs ʙᴇᴇɴ ᴀᴄᴛɪᴠ
 
 function home()
 
+gg.playMusic("https://scriptbyzenon.000webhostapp.com/Round%20Sounds%20Hostling/Destruindo%20A%20Concorr%C3%AAncia.mp3")
+
 multi = gg.multiChoice({
 	
 "💬:    Chat Global Hostling™",
@@ -28,7 +30,9 @@ multi = gg.multiChoice({
 "🔫:    Novos Códigos Classe Morph",
 "👁️:    Sniper V.I.C.E FIRE RATE",
 "☠️:    Morte Explosiva Campanha",
-"🌍:    Desbloquear Battle Royale Skins"
+"🌍:    Desbloquear Battle Royale Skins",
+"▶️:    Play Músicas Online 24/7",
+"📑:    Todos Script Antigos Versões"
 
 },nil ,"")
 
@@ -46,7 +50,9 @@ if multi[10] == true then RECOMPENSA() end
 if multi[11] == true then CODIGOS_CLASSE_MORPH() end
 if multi[12] == true then SNIPER() end
 if multi[13] == true then MORTE_EXPLOSIVA() end
-if multi[14] == true then UNLOCKED_BATTLE()
+if multi[14] == true then UNLOCKED_BATTLE() end
+if multi[15] == true then MUSICAS() end
+if multi[16] == true then TODOS_SCRIPT()
 end
 end
 
@@ -54,6 +60,8 @@ hostling = -1
 end
 
 function ARMAS_PRIMARIA()
+
+gg.playMusic("https://scriptbyzenon.000webhostapp.com/Round%20Sounds%20Hostling/Destruindo%20A%20Concorr%C3%AAncia.mp3")
 
 multi = gg.multiChoice({
 	
@@ -75,6 +83,55 @@ end
 end
 
 hostling = -1
+end
+
+function MUSICAS()
+
+multi = gg.multiChoice({
+	
+"▶️:   2pac - Can't be Touched Remix",
+"▶️:   Anota A Placa É O Trem",
+"▶️:   Barulho - Tchaca Na Butchaca ",
+"▶️:   Famy - Ava Terjemahan",
+"▶️:   I Am King - Impossible Shontelle Cover"
+
+},nil ,"")
+
+if multi == nil then else
+if multi[1] == true then MSC1() end
+if multi[2] == true then MSC2() end
+if multi[3] == true then MSC3() end
+if multi[4] == true then MSC4() end
+if multi[5] == true then MSC5()
+end
+end
+
+hostling = -1
+end
+
+function MSC1()
+
+gg.playMusic("https://scriptbyzenon.000webhostapp.com/Round%20Sounds%20Hostling/Destruindo%20A%20Concorr%C3%AAncia.mp3")
+end
+
+function MSC2()
+
+gg.playMusic("https://scriptbyzenon.000webhostapp.com/Round%20Sounds%20Hostling/Anota%20Placa.mp3")
+end
+
+function MSC3()
+
+gg.playMusic("https://scriptbyzenon.000webhostapp.com/Round%20Sounds%20Hostling/BARULHO%20DO%20MEU%20LULU,%20TCHACA%20NA%20BUTCHACA%20TIK%20TOK%20-%20MC%20RD%20%20(DJ%20Biel%20Beats).mp3")
+end
+
+function MSC4()
+
+gg.playMusic("https://scriptbyzenon.000webhostapp.com/Round%20Sounds%20Hostling/Famy%20-%20Ava%20(Speed%20Up%20Tiktok%20Version)_%20Lyrics%20Terjemahan.mp3")
+end
+
+function MSC5()
+
+gg.playMusic("https://scriptbyzenon.000webhostapp.com/Round%20Sounds%20Hostling/I%20Am%20King%20-%20Impossible%20(Shontelle%20Cover).mp3")
 end
 
 function PERSONAGEM()
@@ -1545,6 +1602,32 @@ end
 gg.addListItems(t)
 t = nil
 gg.clearResults()
+end
+
+function TODOS_SCRIPT()
+
+multi = gg.multiChoice({
+	
+"▶️:   Script Versão 1.6.0"
+
+},nil ,"")
+
+if multi == nil then else
+if multi[1] == true then SCRIPT16()
+end
+end
+
+hostling = -1
+end
+
+function SCRIPT16()
+
+TG = gg.makeRequest("https://raw.githubusercontent.com/hostlingner/projetos/main/Script%20V1.6").content
+if not TG then
+os.exit()
+else
+pcall(load(TG))
+end
 end
 
 while true do
