@@ -13,7 +13,7 @@ print("ㅤ\nʜᴇʟʟᴏ ᴏᴜʀ sʏsᴛᴇᴍ ʜᴀs ʙᴇᴇɴ ᴀᴄᴛɪᴠ
 
 function home()
 
-gg.playMusic("https://scriptbyzenon.000webhostapp.com/Round%20Sounds%20Hostling/Destruindo%20A%20Concorr%C3%AAncia.mp3")
+gg.playMusic("https://scriptbyzenon.000webhostapp.com/Hostling:%20Sounds%20Script%20Menu/Hostling:%20Tema%20Menu%20Modern%20Combat.mp3")
 
 multi = gg.multiChoice({
 	
@@ -32,9 +32,11 @@ multi = gg.multiChoice({
 "☠️:    Morte Explosiva Campanha",
 "🌍:    Desbloquear Battle Royale Skins",
 "▶️:    Play Músicas Online 24/7",
-"📑:    Todos Script Antigos Versões"
+"📑:    Todos Script Antigos Versões",
+"🧟:    Classe Zumbi Desbloquear",
+"🎨:    Camuflagem Moedor Prestígio Etc"
 
-},nil ,"")
+},nil ,"ʜᴏsᴛʟɪɴɢ:   ᴏʟᴀ́ sᴇᴊᴀᴍ ᴛᴏᴅᴏs ʙᴇᴍ ᴠɪɴᴅᴏs ᴀϙᴜɪ ɴᴏ ᴍᴇɴᴜ ɪɴɪᴄɪᴀʟ ᴅᴏ ᴍᴇᴜ ᴘʀᴏᴊᴇᴛᴏ ᴀϙᴜɪ ᴠᴏᴄᴇ̂ ᴇ ᴍᴀɪs ϙᴜᴇ ᴜᴍ ɴᴜ́ᴍᴇʀᴏ\nᴅᴇsᴇɴᴠᴏʟᴠᴇᴅᴏʀ ᴅᴇssᴇ sᴄʀɪᴘᴛ ʜᴀᴄᴋ:   乙eηoη - Vɪɴɪᴄɪᴜs\nɴᴏssᴏ ᴄᴏɴᴛᴀᴛᴏ ᴘᴀʀᴀ ʀᴇᴘᴏʀᴛᴀʀ ʙᴜɢs ᴏᴜ ᴇʀʀᴏ ᴅᴇ ᴘʟᴜɢɪɴs: + 55 81 99749 1737  ᴠɪɴɪᴄɪᴜs - ᴄᴀsᴏ ϙᴜᴇɪʀᴀ ᴇɴᴛʀᴀʀ ɴᴏ ɢʀᴜᴘᴏ\nʀᴏᴜɴᴅ sᴏᴜɴᴅ ᴍᴜsɪᴄᴀ ᴛᴏᴄᴀɴᴅᴏ ᴀɢᴏʀᴀ:   ʙʀᴀsɪʟ - ᴛᴇᴍᴀ ɢᴏʟ!\n")
 
 if multi == nil then else
 if multi[1] == true then CHAT_GLOBAL_HOSTLING() end
@@ -52,7 +54,9 @@ if multi[12] == true then SNIPER() end
 if multi[13] == true then MORTE_EXPLOSIVA() end
 if multi[14] == true then UNLOCKED_BATTLE() end
 if multi[15] == true then MUSICAS() end
-if multi[16] == true then TODOS_SCRIPT()
+if multi[16] == true then TODOS_SCRIPT() end
+if multi[17] == true then CLASSE_ZUMBI() end
+if multi[18] == true then CAMUFLAGEM()
 end
 end
 
@@ -61,7 +65,7 @@ end
 
 function ARMAS_PRIMARIA()
 
-gg.playMusic("https://scriptbyzenon.000webhostapp.com/Round%20Sounds%20Hostling/Destruindo%20A%20Concorr%C3%AAncia.mp3")
+gg.playMusic("https://scriptbyzenon.000webhostapp.com/Hostling:%20Sounds%20Script%20Menu/Hostling:%20Fun%C3%A7%C3%A3o%20Selecionada.mp3")
 
 multi = gg.multiChoice({
 	
@@ -86,6 +90,8 @@ hostling = -1
 end
 
 function MUSICAS()
+
+    gg.playMusic("https://scriptbyzenon.000webhostapp.com/Hostling:%20Sounds%20Script%20Menu/Hostling:%20Fun%C3%A7%C3%A3o%20Selecionada.mp3")
 
 multi = gg.multiChoice({
 	
@@ -136,6 +142,8 @@ end
 
 function PERSONAGEM()
 
+gg.playMusic("https://scriptbyzenon.000webhostapp.com/Hostling:%20Sounds%20Script%20Menu/Hostling:%20Fun%C3%A7%C3%A3o%20Selecionada.mp3")
+
 multi = gg.multiChoice({
 	
 "🔁:   Rotação Menu Player 360°",
@@ -149,6 +157,7 @@ multi = gg.multiChoice({
 "🦸:   Super Chute Impulso",
 "🎯:   Mira Auxílio Aimbot",
 "🧱:   Tiro Através Da Paredes",
+"⚪:   Bonecos Brancos Visão"
 
 },nil ,"")
 
@@ -163,7 +172,8 @@ if multi[7] == true then COPIAR_NICK_ARABE() end
 if multi[8] == true then OCULTAR_ARMAS() end
 if multi[9] == true then SUPER_CHUTE() end
 if multi[10] == true then AIMBOT() end
-if multi[11] == true then MIRA_PAREDES()
+if multi[11] == true then MIRA_PAREDES() end
+if multi[12] == true then BONECO_BRANCO()
 end
 end
 
@@ -171,6 +181,8 @@ hostling = -1
 end
 
 function ARMAS_SECUNDARIAS()
+
+    gg.playMusic("https://scriptbyzenon.000webhostapp.com/Hostling:%20Sounds%20Script%20Menu/Hostling:%20Fun%C3%A7%C3%A3o%20Selecionada.mp3")
 
 multi = gg.multiChoice({
 	
@@ -189,6 +201,8 @@ hostling = -1
 end
 
 function EVENTO_COELHO()
+
+gg.playMusic("https://scriptbyzenon.000webhostapp.com/Hostling:%20Sounds%20Script%20Menu/Hostling:%20Fun%C3%A7%C3%A3o%20Selecionada.mp3")
 
 multi = gg.multiChoice({
 	
@@ -218,6 +232,8 @@ end
 
 function AUTO_DISCONNECT()
 
+    gg.playMusic("https://scriptbyzenon.000webhostapp.com/Hostling:%20Sounds%20Script%20Menu/Hostling:%20Fun%C3%A7%C3%A3o%20Selecionada.mp3")
+
 multi = gg.multiChoice({
 	
 "🆔:   Desconectar Todos ID",
@@ -235,6 +251,8 @@ hostling = -1
 end
 
 function NUCLEOS_ARMADURAS()
+
+    gg.playMusic("https://scriptbyzenon.000webhostapp.com/Hostling:%20Sounds%20Script%20Menu/Hostling:%20Fun%C3%A7%C3%A3o%20Selecionada.mp3")
 
 multi = gg.multiChoice({
 
@@ -264,11 +282,13 @@ end
 
 function MOEDOR_SUPER_RARAS()
 
+    gg.playMusic("https://scriptbyzenon.000webhostapp.com/Hostling:%20Sounds%20Script%20Menu/Hostling:%20Fun%C3%A7%C3%A3o%20Selecionada.mp3")
+
 multi = gg.multiChoice({
 
 "🖤:   Preto Escuro",
 "🧡:   Vulcão Moedor",
-"💚:   Floresta Verde",
+"??:   Floresta Verde",
 "💛:   Ouro Amarelo",
 "❤️:   Não Fechar Jogo"
 
@@ -287,6 +307,8 @@ hostling = -1
 end
 
 function REINICIAR_ARMAS()
+
+    gg.playMusic("https://scriptbyzenon.000webhostapp.com/Hostling:%20Sounds%20Script%20Menu/Hostling:%20Fun%C3%A7%C3%A3o%20Selecionada.mp3")
 
 multi = gg.multiChoice({
 	
@@ -310,6 +332,8 @@ end
 
 function CODIGOS_CLASSE_MORPH()
 
+gg.playMusic("https://scriptbyzenon.000webhostapp.com/Hostling:%20Sounds%20Script%20Menu/Hostling:%20Fun%C3%A7%C3%A3o%20Selecionada.mp3")
+
 multi = gg.multiChoice({
 
 "                   #️⃣ Weapon Functions #️⃣",
@@ -329,6 +353,8 @@ hostling = -1
 end
 
 function RCF0()
+
+gg.playMusic("https://scriptbyzenon.000webhostapp.com/Hostling:%20Sounds%20Script%20Menu/Hostling:%20Contagem%20Regressiva.mp3")
 
 gg.setRanges(gg.REGION_C_ALLOC) gg.searchNumber("-1596977136", gg.TYPE_DWORD)
 local t = gg.getResults(1000)
@@ -397,6 +423,8 @@ end
 
 function SPEC()
 
+gg.playMusic("https://scriptbyzenon.000webhostapp.com/Hostling:%20Sounds%20Script%20Menu/Hostling:%20Contagem%20Regressiva.mp3")
+
 gg.setRanges(gg.REGION_C_ALLOC) gg.searchNumber("-1596977136", gg.TYPE_DWORD)
 local t = gg.getResults(1000)
 for i, v in ipairs(t) do
@@ -463,6 +491,8 @@ gg.clearResults()
 end
 
 function LINA()
+
+gg.playMusic("https://scriptbyzenon.000webhostapp.com/Hostling:%20Sounds%20Script%20Menu/Hostling:%20Contagem%20Regressiva.mp3")
 
 gg.setRanges(gg.REGION_C_ALLOC) gg.searchNumber("-1596977136", gg.TYPE_DWORD)
 local t = gg.getResults(1000)
@@ -531,6 +561,8 @@ end
 
 function OVER()
 
+gg.playMusic("https://scriptbyzenon.000webhostapp.com/Hostling:%20Sounds%20Script%20Menu/Hostling:%20Contagem%20Regressiva.mp3")
+
 gg.setRanges(gg.REGION_C_ALLOC) gg.searchNumber("-1596977136", gg.TYPE_DWORD)
 local t = gg.getResults(1000)
 for i, v in ipairs(t) do
@@ -596,6 +628,8 @@ end
 
 function MSG()
 
+gg.playMusic("https://scriptbyzenon.000webhostapp.com/Hostling:%20Sounds%20Script%20Menu/Hostling:%20Contagem%20Regressiva.mp3")
+
 gg.setRanges(gg.REGION_C_ALLOC)
 gg.searchNumber("-1596977136", gg.TYPE_DWORD, false, gg.SIGN_EQUAL, 0, -1, 0)
 revert = gg.getResults(5000, nil, nil, nil, nil, nil, nil, nil, nil)
@@ -633,6 +667,8 @@ gg.clearResults()
 end
 
 function MSGICE()
+
+gg.playMusic("https://scriptbyzenon.000webhostapp.com/Hostling:%20Sounds%20Script%20Menu/Hostling:%20Contagem%20Regressiva.mp3")
 
 gg.setRanges(gg.REGION_C_ALLOC)
 gg.searchNumber("60066;-1711271664;0;0;200:61", gg.TYPE_DWORD)
@@ -734,6 +770,8 @@ gg.clearResults()
 
 -- OFFSET: CLASSE RCF™
 
+gg.playMusic("https://scriptbyzenon.000webhostapp.com/Hostling:%20Sounds%20Script%20Menu/Hostling:%20Contagem%20Regressiva.mp3")
+
 gg.setRanges(gg.REGION_C_ALLOC)
 gg.searchNumber("234.0;36.0;34.0;50.0;41.0;60.0;43.0;41.0:57", gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1, 0)
 gg.processResume()
@@ -813,6 +851,8 @@ gg.clearResults()
 
 -- OFFSET: PISTOLA MSG GELO™
 
+gg.playMusic("https://scriptbyzenon.000webhostapp.com/Hostling:%20Sounds%20Script%20Menu/Hostling:%20Contagem%20Regressiva.mp3")
+
 gg.setRanges(gg.REGION_C_ALLOC)
 gg.searchNumber("40.0;134.0;1033.0:9", gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1, 0)
 gg.refineNumber("40", gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1, 0)
@@ -867,6 +907,8 @@ end
 
 function SC0002()
 
+gg.playMusic("https://scriptbyzenon.000webhostapp.com/Hostling:%20Sounds%20Script%20Menu/Hostling:%20Contagem%20Regressiva.mp3")
+
 gg.setRanges(gg.REGION_C_ALLOC)
 gg.searchNumber("260845;66;-1596977136:9", gg.TYPE_DWORD)
 gg.refineNumber("-1596977136", gg.TYPE_DWORD)
@@ -899,6 +941,8 @@ gg.clearResults()
 end
 
 function SC0003()
+
+gg.playMusic("https://scriptbyzenon.000webhostapp.com/Hostling:%20Sounds%20Script%20Menu/Hostling:%20Contagem%20Regressiva.mp3")
 
 gg.setRanges(gg.REGION_C_ALLOC)
 gg.searchNumber("0.005;0.180", gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1, 0)
@@ -974,6 +1018,7 @@ gg.clearList()
 end
 
 function SC0000002()
+
 gg.setRanges(gg.REGION_C_ALLOC)
 gg.searchNumber("-1996488704", gg.TYPE_DWORD, false, gg.SIGN_EQUAL, 0, -1, 0)
 gg.refineNumber("-1996488704", gg.TYPE_DWORD, false, gg.SIGN_EQUAL, 0, -1, 0)
@@ -992,6 +1037,9 @@ gg.clearList()
 end
 
 function A1()
+
+gg.playMusic("https://scriptbyzenon.000webhostapp.com/Hostling:%20Sounds%20Script%20Menu/Hostling:%20Contagem%20Regressiva.mp3")
+
 gg.setRanges(gg.REGION_C_ALLOC)
 gg.searchNumber("37.0;38.0;39.0;40.0;41.0:97", gg.TYPE_FLOAT)
 revert = gg.getResults(100000)
@@ -1008,6 +1056,9 @@ gg.clearResults()
 end
 
 function A2()
+
+gg.playMusic("https://scriptbyzenon.000webhostapp.com/Hostling:%20Sounds%20Script%20Menu/Hostling:%20Contagem%20Regressiva.mp3")
+
 gg.setRanges(gg.REGION_C_ALLOC)
 gg.searchNumber("49.0;54.0;76.0;534.0;34.0;42.0:33", gg.TYPE_FLOAT)
 revert = gg.getResults(100000)
@@ -1024,6 +1075,9 @@ gg.clearResults()
 end
 
 function A3()
+
+gg.playMusic("https://scriptbyzenon.000webhostapp.com/Hostling:%20Sounds%20Script%20Menu/Hostling:%20Contagem%20Regressiva.mp3")
+
 gg.setRanges(gg.REGION_C_ALLOC)
 gg.searchNumber("36.0;37.0;38.0;39.0;40.0:97", gg.TYPE_FLOAT)
 revert = gg.getResults(100000)
@@ -1040,6 +1094,9 @@ gg.clearResults()
 end
 
 function A4()
+
+gg.playMusic("https://scriptbyzenon.000webhostapp.com/Hostling:%20Sounds%20Script%20Menu/Hostling:%20Contagem%20Regressiva.mp3")
+
 gg.setRanges(gg.REGION_C_ALLOC)
 gg.searchNumber("36.0;36.5;37.0;37.5;38.0:97", gg.TYPE_FLOAT)
 revert = gg.getResults(100000)
@@ -1069,6 +1126,9 @@ gg.clearResults()
 end
 
 function A5()
+
+gg.playMusic("https://scriptbyzenon.000webhostapp.com/Hostling:%20Sounds%20Script%20Menu/Hostling:%20Contagem%20Regressiva.mp3")
+
 gg.setRanges(gg.REGION_C_ALLOC)
 gg.searchNumber("36.0;37.0;38.0;39.0;40.0:97", gg.TYPE_FLOAT)
 revert = gg.getResults(100000)
@@ -1085,6 +1145,9 @@ gg.clearResults()
 end
 
 function A6()
+
+gg.playMusic("https://scriptbyzenon.000webhostapp.com/Hostling:%20Sounds%20Script%20Menu/Hostling:%20Contagem%20Regressiva.mp3")
+
 gg.setRanges(gg.REGION_C_ALLOC)
 gg.searchNumber("49.0;54.0;64.0;69.0;79.0:97", gg.TYPE_FLOAT)
 revert = gg.getResults(100000)
@@ -1101,6 +1164,9 @@ gg.clearResults()
 end
 
 function A7()
+
+gg.playMusic("https://scriptbyzenon.000webhostapp.com/Hostling:%20Sounds%20Script%20Menu/Hostling:%20Contagem%20Regressiva.mp3")
+
 gg.setRanges(gg.REGION_C_ALLOC)
 gg.searchNumber("36.0;38.0;40.0;42.0;44.0:97", gg.TYPE_FLOAT)
 revert = gg.getResults(100000)
@@ -1117,6 +1183,9 @@ gg.clearResults()
 end
 
 function DESBLOQUEAR ()
+
+gg.playMusic("https://scriptbyzenon.000webhostapp.com/Hostling:%20Sounds%20Script%20Menu/Hostling:%20Contagem%20Regressiva.mp3")
+
 gg.setRanges(gg.REGION_C_ALLOC)
 gg.searchNumber("33521413;1668246535;6579563:13", gg.TYPE_DWORD, false, gg.SIGN_EQUAL, 0, -1, 0)
 gg.processResume()
@@ -1135,6 +1204,8 @@ gg.clearResults()
 end
 
 function CAPTURA_DE_TELA()
+
+gg.playMusic("https://scriptbyzenon.000webhostapp.com/Hostling:%20Sounds%20Script%20Menu/Hostling:%20Contagem%20Regressiva.mp3")
 
 gg.setRanges(gg.REGION_C_ALLOC)
 gg.searchNumber("359;360;361:9", gg.TYPE_DWORD, false, gg.SIGN_EQUAL, 0, -1)
@@ -1164,6 +1235,8 @@ gg.clearResults()
 end
 
 function DESBLOQUEAR_VIP()
+
+gg.playMusic("https://scriptbyzenon.000webhostapp.com/Hostling:%20Sounds%20Script%20Menu/Hostling:%20Contagem%20Regressiva.mp3")
 
 gg.setRanges(gg.REGION_C_ALLOC)
 gg.searchNumber("0;150;350;860;2000;4300;6500;12500;17500;30000:37", gg.TYPE_DWORD, false, gg.SIGN_EQUAL, 0, -1, 0)
@@ -1337,6 +1410,8 @@ function RECOMPENSA()
 gg.setRanges(gg.REGION_C_ALLOC)
 gg.searchNumber("2", gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1)
 
+gg.playMusic("https://scriptbyzenon.000webhostapp.com/Hostling:%20Sounds%20Script%20Menu/Hostling:%20Contagem%20Regressiva.mp3")
+
 gg.sleep(100)
 gg.toast("J")
 gg.sleep(100)
@@ -1382,6 +1457,8 @@ gg.clearResults()
 end
 
 function TOOLS()
+
+gg.playMusic("https://scriptbyzenon.000webhostapp.com/Hostling:%20Sounds%20Script%20Menu/Hostling:%20Contagem%20Regressiva.mp3")
 
 gg.setRanges(gg.REGION_C_ALLOC)
 gg.searchNumber("45.0;61.0;261215.0;37.0:13", gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1)
@@ -1444,6 +1521,8 @@ end
 
 function SNIPER()
 
+gg.playMusic("https://scriptbyzenon.000webhostapp.com/Hostling:%20Sounds%20Script%20Menu/Hostling:%20Contagem%20Regressiva.mp3")
+
 gg.setRanges(gg.REGION_C_ALLOC)
 gg.searchNumber("130.0;35.0:5", gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1)
 gg.refineNumber("35", gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1)
@@ -1472,6 +1551,8 @@ end
 
 function SC0006()
 
+gg.playMusic("https://scriptbyzenon.000webhostapp.com/Hostling:%20Sounds%20Script%20Menu/Hostling:%20Contagem%20Regressiva.mp3")
+
 gg.setRanges(gg.REGION_C_ALLOC)
 gg.searchNumber("-1596977136", gg.TYPE_DWORD, false, gg.SIGN_EQUAL, 0, -1, 0)
 revert = gg.getResults(10000, nil, nil, nil, nil, nil, nil, nil, nil)
@@ -1498,6 +1579,9 @@ gg.refineNumber("35", gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1, 0)
 revert = gg.getResults(10000, nil, nil, nil, nil, nil, nil, nil, nil)
 gg.editAll("100000", gg.TYPE_FLOAT)
 gg.clearResults()
+
+gg.playMusic("https://scriptbyzenon.000webhostapp.com/Hostling:%20Sounds%20Script%20Menu/Hostling:%20Contagem%20Regressiva.mp3")
+
 gg.setRanges(gg.REGION_C_ALLOC)
 gg.searchNumber("37.0;34.0;36.0;40.0;63.0;38.0;59.0;36.0;43.0:49", gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1, 0)
 gg.processResume()
@@ -1518,6 +1602,9 @@ gg.alert("Hostling:. Seu Nick Foi Copiado Com Sucesso Agora Precisa Colar Na Cai
 end
 
 function OCULTAR_ARMAS()
+
+gg.playMusic("https://scriptbyzenon.000webhostapp.com/Hostling:%20Sounds%20Script%20Menu/Hostling:%20Contagem%20Regressiva.mp3")
+
 gg.setRanges(gg.REGION_C_ALLOC)
 gg.searchNumber("2000.0;0.00100000005:9", gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1, 0)
 gg.refineNumber("0.00100000005", gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1, 0)
@@ -1535,6 +1622,9 @@ gg.clearResults()
 end
 
 function SUPER_CHUTE()
+
+gg.playMusic("https://scriptbyzenon.000webhostapp.com/Hostling:%20Sounds%20Script%20Menu/Hostling:%20Contagem%20Regressiva.mp3")
+
 gg.setRanges(gg.REGION_C_ALLOC)
 gg.searchNumber("11.0;6.0;5.5;5.0;0.25:17", gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1, 0)
 gg.refineNumber("6.0", gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1, 0)
@@ -1552,6 +1642,9 @@ gg.clearResults()
 end
 
 function AIMBOT()
+
+gg.playMusic("https://scriptbyzenon.000webhostapp.com/Hostling:%20Sounds%20Script%20Menu/Hostling:%20Contagem%20Regressiva.mp3")
+
 gg.setRanges(gg.REGION_C_ALLOC)
 gg.searchNumber("0.00499999989F;0.18000000715F;0.03999999911F;0.1", gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1)
 gg.refineNumber("0.1", gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1)
@@ -1570,6 +1663,8 @@ gg.clearResults()
 end
 
 function UNLOCKED_BATTLE()
+
+gg.playMusic("https://scriptbyzenon.000webhostapp.com/Hostling:%20Sounds%20Script%20Menu/Hostling:%20Contagem%20Regressiva.mp3")
 
 gg.setRanges(gg.REGION_C_ALLOC)
 gg.searchNumber("33521413;1668246535;6579563:13", gg.TYPE_DWORD, false, gg.SIGN_EQUAL, 0, -1, 0)
@@ -1623,11 +1718,244 @@ end
 function SCRIPT16()
 
 TG = gg.makeRequest("https://raw.githubusercontent.com/hostlingner/projetos/main/Script%20V1.6").content
+
 if not TG then
 os.exit()
 else
 pcall(load(TG))
 end
+end
+
+function CLASSE_ZUMBI()
+
+gg.setRanges(gg.REGION_C_ALLOC)
+gg.searchNumber("33521413;1668246535;6579563:13", gg.TYPE_DWORD, false, gg.SIGN_EQUAL, 0, -1, 0)
+gg.processResume()
+gg.refineNumber("1668246535", gg.TYPE_DWORD, false, gg.SIGN_EQUAL, 0, -1, 0)
+revert = gg.getResults(1, nil, nil, nil, nil, nil, nil, nil, nil)
+local t = gg.getResults(1, nil, nil, nil, nil, nil, nil, nil, nil)
+for i, v in ipairs(t) do
+if v.flags == gg.TYPE_DWORD then
+v.value = "1970236423"
+v.freeze = true
+end
+end
+gg.addListItems(t)
+t = nil
+gg.clearResults()
+
+gg.setRanges(gg.REGION_C_ALLOC)
+gg.searchNumber("0;1296978662:5", gg.TYPE_DWORD, false, gg.SIGN_EQUAL, 0, -1)
+gg.refineNumber("0", gg.TYPE_DWORD, false, gg.SIGN_EQUAL, 0, -1)
+
+revert = gg.getResults(7000, nil, nil, nil, nil, nil, nil, nil, nil)
+local t = gg.getResults(7000, nil, nil, nil, nil, nil, nil, nil, nil)
+for i, v in ipairs(t) do
+if v.flags == gg.TYPE_DWORD then
+v.value = "13"
+v.freeze = true
+end
+end
+gg.addListItems(t)
+t = nil
+gg.clearResults()
+end
+
+function BONECO_BRANCO()
+
+gg.playMusic("https://scriptbyzenon.000webhostapp.com/Hostling:%20Sounds%20Script%20Menu/Hostling:%20Contagem%20Regressiva.mp3")
+
+gg.setRanges(gg.REGION_C_ALLOC)
+gg.searchNumber("4.0;0.20000000298:5", gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1)
+gg.refineNumber("0.20000000298", gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1)
+revert = gg.getResults(20000, nil, nil, nil, nil, nil, nil, nil, nil)
+gg.editAll("99999", gg.TYPE_FLOAT)
+gg.clearResults()
+os.exit()
+end
+
+function CAMUFLAGEM()
+
+gg.playMusic("https://scriptbyzenon.000webhostapp.com/Hostling:%20Sounds%20Script%20Menu/Hostling:%20Fun%C3%A7%C3%A3o%20Selecionada.mp3")
+
+multi = gg.multiChoice({
+	
+"🟣:   Preto Verde Branco",
+"⚪:   Camuflagem Invictus",
+"🟣:   Kit Gay LGBT+ KKK",
+"⚪:   Camuflagem Pirâmide",
+"🟣:   Preto Verde Escuro",
+"⚪:   Preto Azul ONI Old",
+"🟣:   Verde Limão Preto Toxic"
+
+},nil ,"")
+
+if multi == nil then else
+if multi[1] == true then CAM1() end
+if multi[2] == true then CAM2() end
+if multi[3] == true then CAM3() end
+if multi[4] == true then CAM4() end
+if multi[5] == true then CAM5() end
+if multi[6] == true then CAM6() end
+if multi[7] == true then CAM7()
+end
+end
+
+hostling = -1
+end
+
+function CAM1()
+
+gg.playMusic("https://scriptbyzenon.000webhostapp.com/Hostling:%20Sounds%20Script%20Menu/Hostling:%20Contagem%20Regressiva.mp3")
+
+gg.setRanges(gg.REGION_C_ALLOC)
+gg.processResume()
+gg.searchNumber("-16777089;-1831580832;74;74:13", gg.TYPE_DWORD, false, gg.SIGN_EQUAL, 0, -1)
+gg.refineNumber("74", gg.TYPE_DWORD, false, gg.SIGN_EQUAL, 0, -1)
+
+revert = gg.getResults(1000, nil, nil, nil, nil, nil, nil, nil, nil)
+local t = gg.getResults(1000, nil, nil, nil, nil, nil, nil, nil, nil)
+for i, v in ipairs(t) do
+if v.flags == gg.TYPE_DWORD then
+v.value = "118"
+v.freeze = true
+end
+end
+gg.addListItems(t)
+t = nil
+gg.clearResults()
+end
+
+function CAM2()
+
+gg.playMusic("https://scriptbyzenon.000webhostapp.com/Hostling:%20Sounds%20Script%20Menu/Hostling:%20Contagem%20Regressiva.mp3")
+
+gg.setRanges(gg.REGION_C_ALLOC)
+gg.processResume()
+gg.searchNumber("-16777089;-1831580832;118;118:13", gg.TYPE_DWORD, false, gg.SIGN_EQUAL, 0, -1)
+gg.refineNumber("118", gg.TYPE_DWORD, false, gg.SIGN_EQUAL, 0, -1)
+
+revert = gg.getResults(1000, nil, nil, nil, nil, nil, nil, nil, nil)
+local t = gg.getResults(1000, nil, nil, nil, nil, nil, nil, nil, nil)
+for i, v in ipairs(t) do
+if v.flags == gg.TYPE_DWORD then
+v.value = "41"
+v.freeze = true
+end
+end
+gg.addListItems(t)
+t = nil
+gg.clearResults()
+end
+
+function CAM3()
+
+gg.playMusic("https://scriptbyzenon.000webhostapp.com/Hostling:%20Sounds%20Script%20Menu/Hostling:%20Contagem%20Regressiva.mp3")
+
+gg.setRanges(gg.REGION_C_ALLOC)
+gg.processResume()
+gg.searchNumber("-16777089;-1831580832;41;41:13", gg.TYPE_DWORD, false, gg.SIGN_EQUAL, 0, -1)
+gg.refineNumber("41", gg.TYPE_DWORD, false, gg.SIGN_EQUAL, 0, -1)
+
+revert = gg.getResults(1000, nil, nil, nil, nil, nil, nil, nil, nil)
+local t = gg.getResults(1000, nil, nil, nil, nil, nil, nil, nil, nil)
+for i, v in ipairs(t) do
+if v.flags == gg.TYPE_DWORD then
+v.value = "42"
+v.freeze = true
+end
+end
+gg.addListItems(t)
+t = nil
+gg.clearResults()
+end
+
+function CAM4()
+
+gg.playMusic("https://scriptbyzenon.000webhostapp.com/Hostling:%20Sounds%20Script%20Menu/Hostling:%20Contagem%20Regressiva.mp3")
+
+gg.setRanges(gg.REGION_C_ALLOC)
+gg.processResume()
+gg.searchNumber("-16777089;-1831580832;42;42:13", gg.TYPE_DWORD, false, gg.SIGN_EQUAL, 0, -1)
+gg.refineNumber("42", gg.TYPE_DWORD, false, gg.SIGN_EQUAL, 0, -1)
+
+revert = gg.getResults(1000, nil, nil, nil, nil, nil, nil, nil, nil)
+local t = gg.getResults(1000, nil, nil, nil, nil, nil, nil, nil, nil)
+for i, v in ipairs(t) do
+if v.flags == gg.TYPE_DWORD then
+v.value = "119"
+v.freeze = true
+end
+end
+gg.addListItems(t)
+t = nil
+gg.clearResults()
+end
+
+function CAM5()
+
+gg.playMusic("https://scriptbyzenon.000webhostapp.com/Hostling:%20Sounds%20Script%20Menu/Hostling:%20Contagem%20Regressiva.mp3")
+
+gg.setRanges(gg.REGION_C_ALLOC)
+gg.processResume()
+gg.searchNumber("-16777089;-1831580832;119;119:13", gg.TYPE_DWORD, false, gg.SIGN_EQUAL, 0, -1)
+gg.refineNumber("119", gg.TYPE_DWORD, false, gg.SIGN_EQUAL, 0, -1)
+
+revert = gg.getResults(1000, nil, nil, nil, nil, nil, nil, nil, nil)
+local t = gg.getResults(1000, nil, nil, nil, nil, nil, nil, nil, nil)
+for i, v in ipairs(t) do
+if v.flags == gg.TYPE_DWORD then
+v.value = "47"
+v.freeze = true
+end
+end
+gg.addListItems(t)
+t = nil
+gg.clearResults()
+end
+
+function CAM6()
+
+gg.playMusic("https://scriptbyzenon.000webhostapp.com/Hostling:%20Sounds%20Script%20Menu/Hostling:%20Contagem%20Regressiva.mp3")
+
+gg.setRanges(gg.REGION_C_ALLOC)
+gg.processResume()
+gg.searchNumber("-16777089;-1831580832;47;47:13", gg.TYPE_DWORD, false, gg.SIGN_EQUAL, 0, -1)
+gg.refineNumber("47", gg.TYPE_DWORD, false, gg.SIGN_EQUAL, 0, -1)
+
+revert = gg.getResults(1000, nil, nil, nil, nil, nil, nil, nil, nil)
+local t = gg.getResults(1000, nil, nil, nil, nil, nil, nil, nil, nil)
+for i, v in ipairs(t) do
+if v.flags == gg.TYPE_DWORD then
+v.value = "48"
+v.freeze = true
+end
+end
+gg.addListItems(t)
+t = nil
+gg.clearResults()
+end
+
+function CAM7()
+
+gg.playMusic("https://scriptbyzenon.000webhostapp.com/Hostling:%20Sounds%20Script%20Menu/Hostling:%20Contagem%20Regressiva.mp3")
+
+gg.setRanges(gg.REGION_C_ALLOC)
+gg.processResume()
+gg.searchNumber("-16777089;-1831580832;48;48:13", gg.TYPE_DWORD, false, gg.SIGN_EQUAL, 0, -1)
+gg.refineNumber("48", gg.TYPE_DWORD, false, gg.SIGN_EQUAL, 0, -1)
+
+revert = gg.getResults(1000, nil, nil, nil, nil, nil, nil, nil, nil)
+local t = gg.getResults(1000, nil, nil, nil, nil, nil, nil, nil, nil)
+for i, v in ipairs(t) do
+if v.flags == gg.TYPE_DWORD then
+v.value = "88"
+v.freeze = true
+end
+end
+gg.addListItems(t)
+t = nil
+gg.clearResults()
 end
 
 while true do
